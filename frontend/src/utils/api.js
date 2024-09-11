@@ -1,2 +1,2 @@
 // export const BASE_URL = 'http://localhost:5001';
-export const BASE_URL= "https://totality-frontend-challenge-120r.onrender.com";
+export const BASE_URL="https://property-rental-backend-6xj2.onrender.com";
