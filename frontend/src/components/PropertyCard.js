@@ -3,9 +3,10 @@ import { Card, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import { BASE_URL } from '../utils/api';
 
 // const BASE_URL = 'http://localhost:5001';
-const BASE_URL = 'https://totality-frontend-challenge-120r.onrender.com';
+// const BASE_URL = 'https://totality-frontend-challenge-120r.onrender.com';
 
 const PropertyCard = ({ property }) => {
   const navigate = useNavigate();
